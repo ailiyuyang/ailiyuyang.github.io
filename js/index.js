@@ -1,15 +1,5 @@
-const loveDay = new Date(2018, 1, 27).getTime();
 
-// countdown
-let timer = setInterval(function() {
-
-  // get today's date
-  const today = new Date().getTime();
-
-  // get the difference
-  const diff = today - loveDay;
-
-  // math
+  // down.
   let days = 299;
   let hours = 10;
   let minutes = 13;
@@ -26,5 +16,3 @@ let timer = setInterval(function() {
 <div class=\"seconds\"> \
   <div class=\"numbers\">" + seconds + "</div>seconds</div> \
 </div>";
-
-}, 1000);
